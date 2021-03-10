@@ -57,7 +57,7 @@ if grep -q "$todaytitle" $fullpath; then
 else
 	# echo "$todaytitle NOT found "
 	echo "" >> $fullpath
-	echo "## $todaytitle" >> $fullpath
+	echo "$todaytitle" >> $fullpath
 
 	# Add in today's agenda
 	echo "" >> $fullpath
